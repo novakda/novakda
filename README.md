@@ -4,8 +4,8 @@ I specialize in **eLearning systems architecture** and **legacy system rescue**�
 
 When conventional debugging fails, I bring the unconventional: Swiss cheese model failure analysis, SCORM API emulation for testing, and cross-domain middleware that shipped 5 years before commercial alternatives.
 
-> "I cheat, but I cheat fair."
-> — Moe Howard, *The Three Stooges*, 1938
+> "If you want to cheat, cheat fair."
+> — Moe Howard, *Healthy, Wealthy and Dumb* (1938)
 
 ---
 
@@ -56,4 +56,4 @@ Inherited undocumented platform with custom xAPI implementation—reverse-engine
 
 ---
 
-*Built with AI-assisted development (Claude Code)—tools that make complex work precise. I cheat, but I cheat fair.*
+*Built with AI-assisted development (Claude Code)—tools that make complex work precise. If you want to cheat, cheat fair.*
