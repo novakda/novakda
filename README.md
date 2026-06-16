@@ -1,15 +1,15 @@
 # Dan Novak — Provider of Clarity
 
-I specialize in **eLearning systems architecture** and **legacy system rescue** — the projects where documentation is incomplete, vendors have departed, and the system is critical but fragile. Over 28 years, I've built SCORM/xAPI platforms, debugged multi-vendor integration nightmares, and applied NTSB investigative methodology to software forensics.
+I build tools that make operational friction disappear. Product engineer, 28 years, end-to-end ownership across 40+ enterprise engagements. A different stack and problem each time, each owned solo from ambiguity to production. I build the reusable architecture that solves a whole class of problem and ship zero-to-POC in weeks.
 
-When conventional debugging fails, I bring the unconventional: Swiss cheese model failure analysis, SCORM API emulation for testing, and cross-domain middleware that shipped 5 years before commercial alternatives.
+The edge I bring to the hard ones is forensic: NTSB-style root cause analysis for systems that are broken, undocumented, and critical, where nobody can say why. That's a capability, not the identity. The destination is the tool that makes the problem disappear for good.
 
 > "If you want to cheat, cheat fair."
 > — Moe Howard, *Healthy, Wealthy and Dumb* (1938)
 
-**Core technologies:** JavaScript (Vue.js, React), HTML5/CSS3, WCAG 2.1 AA accessibility, cross-platform integration, forensic debugging, SCORM 1.2/2004, xAPI (Tin Can API), AICC, cmi5.
+**Core technologies:** TypeScript, Vue.js, React, Node, HTML5/CSS3, WCAG 2.1 AA accessibility, REST/GraphQL integration, forensic debugging, SCORM/xAPI/AICC/cmi5.
 
-**Approach:** NTSB-style root cause analysis applied to software. When a system fails, I don't just fix the symptom — I map the contributing factors, analyze the Swiss cheese alignment, and recommend systemic improvements.
+**Approach:** When a system fails, I map the contributing factors instead of patching the symptom. Swiss cheese analysis, reproducible debug states, the systemic fix over the quick one.
 
 ---
 
@@ -17,37 +17,37 @@ When conventional debugging fails, I bring the unconventional: Swiss cheese mode
 
 ### SCORM Debugger — TASBot for eLearning
 
-Vue.js wrapper with SCORM API emulation providing emulator save-state functionality for eLearning QA — save course state at any point, restore instantly, edit SCORM values directly, jump to any section. Reduced testing cycles from hours to minutes for gated content. Addresses a gap in commercial SCORM tools: reproducible debug states and session state inspection aren't first-class features anywhere else.
+Vue.js wrapper with SCORM API emulation: save course state at any point, restore instantly, edit SCORM values directly, jump to any section. Cut testing cycles from hours to minutes for gated content. It addresses a gap commercial SCORM tools never closed: reproducible debug states and session inspection as first-class features.
 
-→ [Read the full case study](https://pattern158.solutions/exhibits/exhibit-m.html)
+→ [Read the full case study](https://pattern158.solutions/exhibits/exhibit-m)
 
-### Cross-Domain SCORM Framework (CSBB Dispatch)
+### Cross-Domain Content Framework (CSBB Dispatch)
 
-Cross-domain content delivery architecture built in 2011 — five years before Rustici released Content Controller to solve the same problem. Lightweight stub packages deployed to client LMS platforms; actual content served from central servers. Transparent SCORM/AICC protocol translation layer. Served ~20 energy utility clients drawing from a ~2,000 course library, 10+ years in production.
+Cross-domain content delivery built in 2011, five years before Rustici shipped Content Controller for the same problem. Lightweight stub packages on each client LMS, content served from central servers, transparent SCORM/AICC protocol translation. Served ~20 energy utility clients from a ~2,000-course library, 10+ years in production.
 
-→ [Read the full case study](https://pattern158.solutions/exhibits/exhibit-e.html)
+→ [Read the full case study](https://pattern158.solutions/exhibits/exhibit-e)
 
-### General Motors Investigation — NTSB Forensics for Software
+### Enterprise Learning Portal — NTSB Forensics for Software
 
-Investigated a 19% course incompletion rate (4x baseline) initially framed as a tracking bug. Multi-angle investigation revealed five concurrent systemic failures: memory cache vulnerability with no auto-save, a "Congratulations You Failed" UX pattern, confusing navigation, mobile workforce on poor WiFi, and short-burst usage conflicting with hour-long desktop design. Platform was eventually abandoned — indirect validation of findings.
+Investigated a reported course-incompletion spike framed as a tracking bug. The investigation surfaced five concurrent systemic failures: a memory cache with no auto-save, a "Congratulations You Failed" UX pattern, confusing navigation, a mobile workforce on poor WiFi, and short-burst usage fighting an hour-long desktop design. The platform was later abandoned, indirect validation of the findings.
 
-→ [Read the full case study](https://pattern158.solutions/exhibits/exhibit-j.html)
+→ [Read the full case study](https://pattern158.solutions/exhibits/exhibit-j)
 
-### BP Learning Platform — Reverse-Engineering Undocumented Systems
+### Global Learning Platform — Reverse-Engineering Undocumented Systems
 
-Contributed to an existing React/GraphQL platform acting as a federated facade over Rustici Content Controller, PeopleFluent LMS, Watershed LRS, and Amazon Cognito. Primary work: large-scale multi-tenant rebranding navigating an undocumented Material UI theming system — scoped as one week, expanded to months as interrelated style dependencies emerged. Also: bug fixes, Cognito troubleshooting via log analysis, reverse-engineering Watershed LRS queries.
+Contributed to a React/GraphQL platform acting as a federated facade over a content controller, an enterprise LMS, a learning-record store, and a cloud identity provider. Primary work: a large-scale multi-tenant rebrand through an undocumented Material UI theming system, scoped at one week and stretched to months as interdependent style dependencies surfaced. Plus bug fixes, identity-provider troubleshooting through log analysis, and reverse-engineering LRS queries.
 
-→ [Read the full case study](https://pattern158.solutions/exhibits/exhibit-n.html)
+→ [Read the full case study](https://pattern158.solutions/exhibits/exhibit-n)
 
 ---
 
 ## Currently
 
-**Open to opportunities** in eLearning systems architecture, legacy platform rescue, or technical investigation roles. Especially interested in projects where the documentation is missing and the stakes are high.
+**Open to work** as a product or forward-deployed engineer: building tools, owning systems end-to-end, embedding with the teams whose problems need solving. I bring a forensic edge to the ones nobody else can untangle.
 
 **Website:** [pattern158.solutions](https://pattern158.solutions)
 **LinkedIn:** [linkedin.com/in/pattern158](https://linkedin.com/in/pattern158)
 
 ---
 
-*Built with AI-assisted development (Claude Code) — tools that make complex work precise. If you want to cheat, cheat fair.*
+*Built with AI-assisted development (Claude Code). Tools that make complex work precise.*
