@@ -1,53 +1,53 @@
-# Dan Novak — Provider of Clarity
+# Dan Novak, Provider of Clarity
 
-I build tools that make operational friction disappear. Product engineer, 28 years, end-to-end ownership across 40+ enterprise engagements. A different stack and problem each time, each owned solo from ambiguity to production. I build the reusable architecture that solves a whole class of problem and ship zero-to-POC in weeks.
+Senior/Staff full-stack engineer, frontend-leaning: TypeScript, Vue, React, Node, SQL. 28 years, usually as the sole engineer taking a problem from ambiguity to production. Portland, OR. Remote.
 
-The edge I bring to the hard ones is forensic: NTSB-style root cause analysis for systems that are broken, undocumented, and critical, where nobody can say why. That's a capability, not the identity. The destination is the tool that makes the problem disappear for good.
+I build the tool that removes a recurring cost for the people who use it. Developer experience, internal tooling, and product engineering are the work I want.
 
-> "If you want to cheat, cheat fair."
-> — Moe Howard, *Healthy, Wealthy and Dumb* (1938)
+AI is a clarity tool, not an expertise replacement. Model output is a draft. Deterministic gates decide what is true.
 
-**Core technologies:** TypeScript, Vue.js, React, Node, HTML5/CSS3, WCAG 2.1 AA accessibility, REST/GraphQL integration, forensic debugging, SCORM/xAPI/AICC/cmi5.
+> I cheat, but I cheat fair.
 
-**Approach:** When a system fails, I map the contributing factors instead of patching the symptom. Swiss cheese analysis, reproducible debug states, the systemic fix over the quick one.
+**Core:** TypeScript · Vue · React · Node · SQL (PostgreSQL, SQLite, SQL Server) · HTML5/CSS3 · design systems and theming · WCAG 2.1 AA / Section 508 · SCORM 1.2 / 2004 · AICC · xAPI · MCP servers
 
 ---
 
-## Featured Work
+## Featured work
 
-### SCORM Debugger — TASBot for eLearning
+### SCORM Debugger: emulator save-states for eLearning
 
-Vue.js wrapper with SCORM API emulation: save course state at any point, restore instantly, edit SCORM values directly, jump to any section. Cut testing cycles from hours to minutes for gated content. It addresses a gap commercial SCORM tools never closed: reproducible debug states and session inspection as first-class features.
+Testing a gated course meant clicking through every state combination by hand. I built a Vue.js wrapper with a fake SCORM API, save-states, and instant replay. A test cycle went from hours to minutes.
 
-→ [Read the full case study](https://pattern158.solutions/exhibits/exhibit-m)
+→ [Case study](https://pattern158.solutions/exhibits/exhibit-0012)
 
-### Cross-Domain Content Framework (CSBB Dispatch)
+### CSBB Dispatch: cross-domain content delivery
 
-Cross-domain content delivery built in 2011, five years before Rustici shipped Content Controller for the same problem. Lightweight stub packages on each client LMS, content served from central servers, transparent SCORM/AICC protocol translation. Served ~20 energy utility clients from a ~2,000-course library, 10+ years in production.
+I architected a cross-domain SCORM/AICC delivery framework in 2011: stub packages on each client LMS, content served centrally, protocol translation in between. It cut maintenance across 20+ enterprise clients for more than a decade. It predates Rustici Content Controller by five years.
 
-→ [Read the full case study](https://pattern158.solutions/exhibits/exhibit-e)
+→ [Case study](https://pattern158.solutions/exhibits/exhibit-0004)
 
-### Enterprise Learning Portal — NTSB Forensics for Software
+### The Evidence Gate: blocking AI overclaims
 
-Investigated a reported course-incompletion spike framed as a tracking bug. The investigation surfaced five concurrent systemic failures: a memory cache with no auto-save, a "Congratulations You Failed" UX pattern, confusing navigation, a mobile workforce on poor WiFi, and short-burst usage fighting an hour-long desktop design. The platform was later abandoned, indirect validation of the findings.
+career-tooling is a TypeScript pipeline on Postgres. Its provenance gate refuses to emit any document carrying a claim that does not trace to reviewed evidence. I also built an MCP server over it, one of two MCP servers I have written in TypeScript on the official SDK.
 
-→ [Read the full case study](https://pattern158.solutions/exhibits/exhibit-j)
+→ [Case study](https://pattern158.solutions/exhibits/exhibit-0015)
 
-### Global Learning Platform — Reverse-Engineering Undocumented Systems
+### Hybrid AI architecture: structured data for state, AI for interaction
 
-Contributed to a React/GraphQL platform acting as a federated facade over a content controller, an enterprise LMS, a learning-record store, and a cloud identity provider. Primary work: a large-scale multi-tenant rebrand through an undocumented Material UI theming system, scoped at one week and stretched to months as interdependent style dependencies surfaced. Plus bug fixes, identity-provider troubleshooting through log analysis, and reverse-engineering LRS queries.
+Prompt engineering alone could not enforce state; the model was acting as both interface and data store. I architected an agent prototype that confines the model to conversational routing and puts everything that must be correct into deterministic, schema-bound structures.
 
-→ [Read the full case study](https://pattern158.solutions/exhibits/exhibit-n)
+→ [Case study](https://pattern158.solutions/exhibits/exhibit-0010)
+
+### Theming a multi-subsidiary rebrand
+
+On a global learning platform, I reverse-engineered an undocumented styling layer and built the theming system that let drifted subsidiary brands be rebranded at all. React frontend, federated GraphQL over four backend systems.
+
+→ [Case study](https://pattern158.solutions/exhibits/exhibit-0013)
 
 ---
 
 ## Currently
 
-**Open to work** as a product or forward-deployed engineer: building tools, owning systems end-to-end, embedding with the teams whose problems need solving. I bring a forensic edge to the ones nobody else can untangle.
+Open to senior and staff full-stack roles: developer experience, internal tooling, product engineering. ServiceNow Certified System Administrator (July 2026).
 
-**Website:** [pattern158.solutions](https://pattern158.solutions)
-**LinkedIn:** [linkedin.com/in/pattern158](https://linkedin.com/in/pattern158)
-
----
-
-*Built with AI-assisted development (Claude Code). Tools that make complex work precise.*
+**Case studies:** [pattern158.solutions](https://pattern158.solutions) · **LinkedIn:** [linkedin.com/in/pattern158](https://linkedin.com/in/pattern158)
